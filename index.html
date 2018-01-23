@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <table >
+        <tr>
+            <td>Meno:</td> 
+            <td><input id="fname" type="text"></td>
+            <td>Last name </td> 
+            <td><input id="lname" type="text"></td>
+            
+    
+        </tr>
+        <tr>
+            <td></td><td id="error1"></td><td></td><td id="error2"></td>
+        </tr>
+        <tr>
+            <td>Datum narodenia </td> 
+            <td><input id="bday" type="date"></td>
+            <td>Gender:</td>
+            <td>
+                Male<input type="radio" value="male" name="gender"><br>
+                Female<input type="radio" value="female" name="gender">
+            </td>
+            </tr>
+        <tr>
+            <td></td><td id="error3"></td><td></td><td><button>OK</button></td>
+        </tr>
+    </table>
+    <br>
+    <div class="menu">
+      <label class="genl" for="">Show gender:</label>
+       <select id="selectGender" class="">
+           <option value="m">Male</option>
+           <option value="f">Female</option>
+           <option value="a">Male+Female</option>
+        </select>
+        <input class="ba" id="showAge" type="checkbox"><label for="Show Birthday/Age">Show Birthday/Age</label>
+    </div>
+    
+    <div class="table"></div>
+    </div>
+
+   
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+
+    background-image: url(img/bg.jpg);
+}
+
+p{
+  font-family: cursive;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+}
+
+.menu {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+td {
+    font-family: cursive;
+    
+}
+.container{
+    width: 60%;
+    background-color: azure;
+    margin: auto;
+}
+
+label{
+    font-family: cursive;
+}
+
+#error1{
+    color: red;
+}
+
+#error2{
+    color: red;
+}
+
+#error3{
+    color: red;
+}
